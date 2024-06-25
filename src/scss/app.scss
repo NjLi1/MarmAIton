@@ -1,0 +1,28 @@
+@import 'variables';
+@import 'mixins';
+@import 'reset';
+@import 'global';
+
+@media (min-width: 576px) {
+  .feature {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .feature {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .feature {
+    padding: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .feature {
+    padding: 60px;
+  }
+}

@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.description {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.description p {
+    line-height: 1.5;
+}
+
+.cta {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Styles pour les features, témoignages, etc. */
+
+/* Médias queries pour le responsive */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+    .feature {
+        width: 100%;
+    }
+}
